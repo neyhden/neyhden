@@ -2,3 +2,50 @@ body {
     background: #17141C;
     color: white;
 }
+
+h1 {
+    font-size: 88px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+hr {
+    width: 90%;
+}
+
+img {
+    background: unset;
+    color: white;
+    fill: white;
+    width: 40px;
+    height: 40px;
+}
+
+path {
+    fill: white
+}
+
+button {
+    background: unset;
+    border: unset;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
