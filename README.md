@@ -5,3 +5,8 @@
 🖥️ Developer pecialized on visual programming, highly interested in building of applications, either web based or native.
 
 🌱 Currently developing videogames using Godot game engine and status bar using [EWW](https://github.com/elkowar/eww).
+
+### 
+---
+
+My personal portfolio 👉 https://neyhden.github.io/neyhden/ 
