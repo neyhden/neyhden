@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>Lissajous</title>
+    <script>exports = {}</script>
+    <script defer type="module" src="js/index.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <h3>Elías Hernández Abreu<h3>
+      <h2><a href="../index.html">Home</a> / Lissajous</h2>
+    </div>
+    <div class="lissajous">
+      <canvas width="1200px" height="700px" id="canvas"></canvas>
+      <div class="options">
+        <h1>Options</h1>
+        <div class="option">
+          <h3>Speed</h3>
+          <output id="speedOutput">100</output>
+          <hr>
+          <input type="range" min="-1000" max="1000" value="100" class="slider" id="speed-slider"
+            oninput="speedOutput.value = this.value">
+        </div>
+        <div class="option">
+          <h3>Phase</h3>
+          <output id="phaseOutput">0</output>
+          <hr>
+          <input type="range" min="0" max="3141" value="0" class="slider" id="phase-slider"
+            oninput="phaseOutput.value = this.value">
+        </div>
+        <div class="option">
+          <h3>Horizontal frequency</h3>
+          <output id="hfOutput">4</output>
+          <hr>
+          <input type="range" min="1" max="20" value="4" class="slider" id="horizontal-frequency-slider"
+            oninput="hfOutput.value = this.value">
+        </div>
+        <div class="option">
+          <h3>Vertical frequency</h3>
+          <output id="vrOutput">3</output>
+          <hr>
+          <input type="range" min="1" max="20" value="3" class="slider" id="vertical-frequency-slider"
+            oninput="vrOutput.value = this.value">
+        </div>
+      </div>
+    </div>
+    <h1>Lissajou curves</h1>
+    <p>The Lissajou curves is the result of displaying graphically the result of these formulas:</p>
+    <h3>x(t) = Asin(⍵t)</h3>
+    <h3>y(t) = Bsin(Ωt + δ)</h3>
+    <p>Obtaining values for x and y for every value of t in a single frame. ⍵ represents the horizontal frequency and Ω represents the vertical one.</p>
+    <h2>References</h2>
+    <li><a href="https://academo.org/demos/lissajous-curves/">https://academo.org/demos/lissajous-curves/</a></li>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+.header {
+  margin: 1%;
+  background-color: gray;
+  text-align: center;
+  font-size: 11px;
+  font: Arial;
+  color: White;
+  padding: 1px;
+}
+
+.center {
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.lissajous {
+  margin: 1%;
+  height: 600px;
+  background-color: lightgray;
+}
+
+#canvas {
+  width: 63%; 
+  height: 95%;
+  margin-top: 1%;
+  margin-left: 1%;
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+.options {
+  width: 33%; 
+  height: 95%;
+  margin-right: 1%;
+  margin-top: 1%;
+  float: right;
+  background-color: darkgray;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+
+  overflow-y: scroll;
+  text-align: center;
+  align-content: center;
+}
+
+.option {
+  width: 100%;
+  background-color: gray;
+  text-align: center;
+}
+
+.slider {
+  width: 80%; /* Full-width */
+  height: 25px; /* Specified height */
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
