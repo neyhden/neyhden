@@ -13,7 +13,7 @@ h2 {
 }
 
 hr {
-    width: 90%;
+    width: 300px;
 }
 
 img {
@@ -36,11 +36,19 @@ button {
     cursor: pointer;
 }
 
+ul {
+    min-width: 500px;
+}
+li {
+    width: 100%;
+}
+
 .column {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .row {
@@ -48,4 +56,19 @@ button {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.link {
+    display: inline-block;
+    font-size: 36px;
+    transition-duration: 200ms;
+    width: 100%;
+    margin: 8px;
+    color: #aaaaff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.link:hover {
+    background: rgba(255, 255, 255, 0.1);
+    padding-left: 40px;
 }
