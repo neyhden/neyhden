@@ -17,11 +17,8 @@ hr {
 }
 
 img {
-    background: unset;
-    color: white;
-    fill: white;
-    width: 40px;
-    height: 40px;
+  width: 100vh;
+  margin: 2em;
 }
 
 path {
@@ -77,6 +74,13 @@ li {
   position: relative;
   transition-duration: 200ms;
   top: 0;
+}
+.cornerlink img {
+    background: unset;
+    color: white;
+    fill: white;
+    width: 40px;
+    height: 40px;
 }
 .cornerlink:hover {
   top: 1em;
